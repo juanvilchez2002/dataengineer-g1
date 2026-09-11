@@ -17,3 +17,11 @@ a -> de adicionar cambios
 m -> mensaje
 
 ls: lista todos los archivos o folders del directorio
+
+git log -> permite revisar la historia de los cambios de un repositorio
+
+git log --oneline -> al igual que git log, nos permite ver el historial pero nos muestra de una forma reducida
+
+git diff -> permite ver las diferencias entre las versiones de los archivos
+
+.gitignote -> lo que git debe de ignorar, es un archivo especial que contiene reglas para indicar que archivos o carpetas git debe ignorar 
