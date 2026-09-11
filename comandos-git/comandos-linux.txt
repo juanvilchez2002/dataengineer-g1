@@ -9,3 +9,9 @@ git status
 git add comandos-git/comandos-linux.txt
 git status
 git commit -m 'inicialice el archivo comandos-linux.txt'
+
+cd: permite cambiar de directorio
+
+git commit -am 'mensaje a entrar'
+a -> de adicionar cambios
+m -> mensaje
