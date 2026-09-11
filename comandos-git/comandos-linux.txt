@@ -15,3 +15,5 @@ cd: permite cambiar de directorio
 git commit -am 'mensaje a entrar'
 a -> de adicionar cambios
 m -> mensaje
+
+ls: lista todos los archivos o folders del directorio
