@@ -1,0 +1,11 @@
+cd documents
+mkdir dataengineer-g1 && cd dataengineer-g1
+git init
+
+mkdir comantos-git
+creamos archivo comandos-linux.txt
+
+git status
+git add comandos-git/comandos-linux.txt
+git status
+git commit -m 'inicialice el archivo comandos-linux.txt'
