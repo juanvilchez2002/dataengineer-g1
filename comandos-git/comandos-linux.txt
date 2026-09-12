@@ -25,3 +25,15 @@ git log --oneline -> al igual que git log, nos permite ver el historial pero nos
 git diff -> permite ver las diferencias entre las versiones de los archivos
 
 .gitignote -> lo que git debe de ignorar, es un archivo especial que contiene reglas para indicar que archivos o carpetas git debe ignorar 
+
+git restore -> restaura el archivo a su anterior versipon
+
+git restore --staged -> restaura un paso, sale de la zona stating (se dio antes un git add), deshace el git add
+
+git reset --soft ##### -> elimina el commit pero no los cambios en el archivo, se le debe pasar el id del commit a querer ir (siempre anterior)
+
+git reset --hard 2c8d52d -> elimina el commit con los cambios realizados
+
+git branch -> permite ver que ramas existe y nos indica en que rama nos encontramos
+
+git switch -c nombre_rama_nueva -> crea una rama nueva y nos ubica en ella
