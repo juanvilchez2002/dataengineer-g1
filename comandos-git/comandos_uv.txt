@@ -1,0 +1,16 @@
+generar el archivo ssh
+abrimos el power shell en modo administrador y ejecutamos el sgte comando
+
+ssh-keygen -t ed25519 -C "correo_electronico"
+
+genera un archivo
+y ejecutamos los sgtes comandos
+
+Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+Start-Service ssh-agent
+
+para activar los servicios
+ejecutamos este comando, para adicionar el hash
+
+ssh-add c:/Users/Marcell/.ssh/id_ed25519
+
