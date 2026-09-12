@@ -1,0 +1,1 @@
+git init: sierve para inicializar un folder y convertirlo en un repositorio
