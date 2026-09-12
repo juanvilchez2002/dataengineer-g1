@@ -36,4 +36,4 @@ git reset --hard 2c8d52d -> elimina el commit con los cambios realizados
 
 git branch -> permite ver que ramas existe y nos indica en que rama nos encontramos
 
-git switch -c nombre_rama_nueva -> crea una rama nueva y nos ubica en ella
+git switch -c nombre_rama_nueva -> crea una rama nueva y nos ubica en ella, sin la "-c" nos permite cambiar de ramas
