@@ -14,3 +14,20 @@ ejecutamos este comando, para adicionar el hash
 
 ssh-add c:/Users/Marcell/.ssh/id_ed25519
 
+
+-----------------------------------------
+
+crear el espacio de trabajo (proyecto) 
+el --no-package -> le dice pero sin convertirlo en un paquete instalable. 
+
+uv init --no-package fundamentos_python --python 3.14
+cd fundamentos_python
+
+correr el ambiente
+uv run main.py
+
+instalando dependencias para ejecutar notebooks
+uv add ipykernel
+
+creamos una carpeta notebook
+parecionamos control + shitf + p -> luego jypiter o notebook y creamos el archivo
