@@ -31,3 +31,6 @@ uv add ipykernel
 
 creamos una carpeta notebook
 parecionamos control + shitf + p -> luego jypiter o notebook y creamos el archivo
+
+ejecutando uv sync descarga todos las dependencias y el entorno virtual, de un repositorio descargado o clonado
+uv sync
