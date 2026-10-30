@@ -8,7 +8,7 @@ from airflow.sdk import dag,task
     catchup=False,
     tags=["ejercicio e4", "reintentos"],
     default_args={
-        "retries": 1,
+        "retries": 3,
         "retry_delay": timedelta(seconds=10)
     }
 )
